@@ -1,0 +1,23 @@
+{
+  "name": "express-health-service",
+  "version": "1.0.0",
+  "description": "Small Node.js project with Express featuring modular routing, configuration, and a health check endpoint.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "info": "node scripts/print-info.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "healthcheck",
+    "api"
+  ],
+  "author": "Santiago Robayo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^4.21.2"
+  }
+}
